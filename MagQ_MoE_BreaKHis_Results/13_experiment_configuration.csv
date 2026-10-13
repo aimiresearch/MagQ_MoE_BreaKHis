@@ -1,0 +1,2 @@
+Experiment,Dataset,Seed,Backbone,FineTune,Experts,VQC_Depth,Router_Input,Router_Hidden,Router_Temperature,Balance_Lambda,LR_Backbone,LR_Experts_Router,Epochs_Max,Patience,Split
+MagQ-MoE,BreaKHis,42,ImageNet-pretrained ResNet18,layer4,"4Q,6Q,8Q",2,512-D CNN features + 4-D magnification one-hot,128,1.0,0.02,1e-05,0.0002,25,6,"Patient-wise 70/15/15 strategy, seed 42"
